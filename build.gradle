@@ -27,5 +27,11 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+checkstyle {
+	ignoreFailures = true
+	
+	toolVersion "7.6.1"
+}
+
 mainClassName = 'main/Main'
 
